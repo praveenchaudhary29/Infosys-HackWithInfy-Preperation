@@ -1,3 +1,5 @@
+//Questions - Leetcode (21 Easy)
+//Here make a new list ans and start comparing the subsequent nodes of both list and add accordingly so as to keep the resultant order in sorted
 class Solution {
     public ListNode mergeTwoLists(ListNode list1, ListNode list2) {
         //edge cases
