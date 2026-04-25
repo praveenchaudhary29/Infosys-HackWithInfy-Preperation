@@ -4,7 +4,7 @@
 class Solution { 
     public boolean containsDuplicate(int[] nums) {
       Set<Integer>  count = new HashSet<>();
-      for(int num : nums){
+      for(int  num : nums){
         if(!count.add(num)) return true;
       }
     return false;    
